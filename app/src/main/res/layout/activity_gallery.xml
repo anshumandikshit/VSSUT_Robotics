@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.robotix_vssut.welcomeanimationapp.activity_gallery">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_x="138dp"
+        android:layout_y="113dp"
+        android:id="@+id/toolbar2"
+        app:title="Gallery"
+        app:titleTextColor="@color/cardview_light_background" />
+
+    <WebView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:id="@+id/webview_gallery"
+        android:layout_below="@+id/toolbar2">
+
+
+    </WebView>
+</RelativeLayout>

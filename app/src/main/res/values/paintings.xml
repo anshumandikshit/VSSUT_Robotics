@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="paintings_titles">
+        <item>quadcoptor</item>
+        <item>robocon</item>
+        <item>humanoid</item>
+        <item>3D_Gesture_module</item>
+        <item>selfbalancing bot</item>
+    </string-array>
+
+    <string-array name="paintings_years">
+        <item>1889</item>
+        <item>1888</item>
+        <item>1888</item>
+        <item>1888</item>
+        <item>1890</item>
+    </string-array>
+
+    <string-array name="paintings_locations">
+        <item>Museum of Modern Art, New York City</item>
+        <item>Kröller-Müller Museum, Otterlo</item>
+        <item>Musée d\'Orsay, Paris</item>
+        <item>National Gallery, London</item>
+        <item>Van Gogh Museum, Amsterdam</item>
+    </string-array>
+
+    <array name="paintings_images">
+        <item>@drawable/quad</item>
+        <item>@drawable/robocon</item>
+        <item>@drawable/humanoid1</item>
+        <item>@drawable/gesture</item>
+        <item>@drawable/selfbalance</item>
+    </array>
+
+</resources>

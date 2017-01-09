@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="140dp"
+    android:background="@mipmap/nav_wallpaper">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/rs"
+        android:id="@+id/imageView8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="VSSUT ROBOTICS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        tools:text="VSSUT ROBOTICS"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

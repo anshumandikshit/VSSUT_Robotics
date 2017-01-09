@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513605348422",
+    "firebase_url": "https://welcomeanimationapp.firebaseio.com",
+    "project_id": "welcomeanimationapp",
+    "storage_bucket": "welcomeanimationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513605348422:android:8a2f511e034f8555",
+        "android_client_info": {
+          "package_name": "com.robotix_vssut.welcomeanimationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513605348422-qrcqllmf58ftbp681ioqcogfud34usnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robotix_vssut.welcomeanimationapp",
+            "certificate_hash": "B4CE656912A0D464F953660E1693A84F6F48733A"
+          }
+        },
+        {
+          "client_id": "513605348422-vpa2eavkbjshppvajvqnnvhp14hk4fha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbcICmUzYlPvGRvoFOp2T5L3uYUduCO5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513605348422-vpa2eavkbjshppvajvqnnvhp14hk4fha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

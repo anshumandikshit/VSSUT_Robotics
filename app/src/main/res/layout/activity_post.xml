@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.robotix_vssut.welcomeanimationapp.PostActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:src="@mipmap/add_btn24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageSelect" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/input_outline"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/titleField"
+        android:padding="15dp"
+        android:hint="Title"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:hint="Say something about it"
+        android:layout_below="@+id/titleField"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/descField"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/graycolor"
+
+        android:id="@+id/submitBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp" />
+</RelativeLayout>

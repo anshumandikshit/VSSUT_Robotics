@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<group>
+    <item android:id="@+id/nav_accoount"
+        android:title="My Account"
+        android:icon="@mipmap/ic_person_black_24dp"/>
+
+    <item android:id="@+id/gallery"
+        android:icon="@mipmap/picture_gallery"
+        android:title="Gallery" />
+
+
+
+
+    <item android:id="@+id/achivements"
+           android:icon="@mipmap/ic_stars_black_24dp"
+        android:title="Achivements" />
+    <item
+        android:id="@+id/projects"
+        android:icon="@mipmap/ic_event_seat_black_24dp"
+        android:title="Projects">
+
+    </item>
+
+
+    <item android:id="@+id/notifications"
+        android:icon="@mipmap/ic_notifications_black_24dp"
+        android:title="Notifications"/>
+</group>
+
+<group>
+    <item android:id="@+id/about"
+        android:icon="@mipmap/info"
+        android:title="About" />
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@mipmap/ic_share_black_24dp">
+
+    </item>
+
+
+    <item android:id="@+id/feedback"
+        android:icon="@mipmap/ic_feedback_black_24dp"
+        android:title="Feedback/suggestions"/>
+
+</group>
+
+
+</menu>

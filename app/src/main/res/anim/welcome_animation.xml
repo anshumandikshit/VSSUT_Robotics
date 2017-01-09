@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<scale
+    android:fromXScale="@dimen/activity_horizontal_margin"
+    android:fromYScale="@dimen/activity_vertical_margin"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="1"
+    android:toYScale="1"
+
+
+    >
+
+</scale>
+    <rotate
+        android:fromDegrees="720"
+        android:toDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%">
+
+    </rotate>
+
+
+</set>

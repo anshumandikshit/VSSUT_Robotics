@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_content_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+
+
+    tools:context="com.robotix_vssut.welcomeanimationapp.ContentAbout"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:text="V 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView2"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Robotics Society is an official society of VSSUT, Burla which owes its initiative to alumni Mr. Biswajit Parida. The society encourages various technical activities and projects in the field of amateur as well as advanced Robotics, in the university.The members are a bunch of budding technocrats who are driven by an acute zest for learning technological advancements and happenings in the modern world, and endeavor in applying the theoretical learnings into realistic projects."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/textView4"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="normal|bold"
+        android:textSize="19sp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:text="www.vssutrobotics.in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+        android:id="@+id/text_web_addr"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="VSSUT ROBOTICS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="FOLLOW US"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="126dp"
+        android:id="@+id/textView4"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/facebook"
+        android:layout_marginLeft="11dp"
+        android:background="@color/cardview_light_background"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/about_fb"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/text_web_addr"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/linked_in"
+        android:padding="5dp"
+        android:background="@color/cardview_light_background"
+        android:id="@+id/about_linkedin"
+        android:layout_alignTop="@+id/about_youtube"
+        android:layout_toEndOf="@+id/text_web_addr" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/youtube1"
+        android:id="@+id/about_youtube"
+        android:padding="5dp"
+        android:background="@color/cardview_light_background"
+        android:layout_alignTop="@+id/about_twitter"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/twitter"
+        android:background="@color/cardview_light_background"
+        android:padding="5dp"
+        android:id="@+id/about_twitter"
+        android:layout_alignTop="@+id/about_fb"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_marginEnd="11dp" />
+
+
+</RelativeLayout>

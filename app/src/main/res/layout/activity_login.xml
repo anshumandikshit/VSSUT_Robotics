@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.robotix_vssut.welcomeanimationapp.LoginActivity"
+    android:background="@android:color/holo_red_dark">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:id="@+id/LoginEmailField"
+        android:hint="Email"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/LoginEmailField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:id="@+id/LoginPasswordField"
+        android:hint="Password"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="normal|bold" />
+
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/LoginBtn"
+        android:layout_below="@+id/LoginPasswordField"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="create an account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/newAcct_create"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="1dp" />
+
+</RelativeLayout>
